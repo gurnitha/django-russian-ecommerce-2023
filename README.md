@@ -125,3 +125,5 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   app/home/apps.py
         modified:   config/settings.py
+
+## 5. TEMPLATES, VIEWS DAN URLS
