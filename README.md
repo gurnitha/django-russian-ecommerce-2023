@@ -38,3 +38,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         ING=# CREATE DATABASE django_russian_ecommerce_2023;
         CREATE DATABASE
+
+#### 3.3 Connect db with the project
+
+        modified:   README.md
+        modified:   config/settings.py
