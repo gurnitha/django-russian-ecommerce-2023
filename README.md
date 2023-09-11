@@ -43,3 +43,19 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3.4 Instal django-environ
+
+        > pip install django-environ
+        (dj-russian-ecom) ING@AFTER65: pip list
+        Package         Version
+        --------------- -------
+        asgiref         3.7.2
+        Django          4.2
+        django-environ  0.11.2
+        pip             23.2.1
+        psycopg2-binary 2.9.7
+        setuptools      68.0.0
+        sqlparse        0.4.4
+        tzdata          2023.3
+        wheel           0.41.2
