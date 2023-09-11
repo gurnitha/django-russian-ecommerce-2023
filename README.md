@@ -171,3 +171,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   templates/app/home/index.html
+
+#### 6.4 Create base template and extends it to homepage
+
+        modified:   README.md
+        modified:   templates/app/home/index.html
+        new file:   templates/base.html
