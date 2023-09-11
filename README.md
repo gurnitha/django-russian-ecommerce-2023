@@ -25,3 +25,16 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 #### 3.1 Instal Psycopg adaptor database PostgreSQL
 
         > python -m pip install psycopg2-binary
+
+#### 3.2 Create db
+
+        E:\_WORKSPACE\laragon\bin\postgresql\postgresql-15.3-4\bin
+        λ psql
+        psql (15.3)
+        WARNING: Console code page (437) differs from Windows code page (1252)
+                8-bit characters might not work correctly. See psql reference
+                page "Notes for Windows users" for details.
+        Type "help" for help.
+
+        ING=# CREATE DATABASE django_russian_ecommerce_2023;
+        CREATE DATABASE
