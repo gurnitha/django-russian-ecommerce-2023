@@ -209,3 +209,14 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 #### 8.1 Crete product folder: app/product
 
         modified:   README.md
+
+#### 8.2 Crete product app
+
+        modified:   README.md
+        new file:   app/product/__init__.py
+        new file:   app/product/admin.py
+        new file:   app/product/apps.py
+        new file:   app/product/migrations/__init__.py
+        new file:   app/product/models.py
+        new file:   app/product/tests.py
+        new file:   app/product/views.py
