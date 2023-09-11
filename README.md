@@ -134,3 +134,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   app/home/urls.py
         modified:   app/home/views.py
         modified:   config/urls.py
+
+#### 5.2 Hello World from urls, views, templates
+
+        modified:   README.md
+        modified:   app/home/views.py
+        modified:   config/settings.py
+        new file:   templates/app/home/index.html
