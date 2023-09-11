@@ -75,7 +75,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/settings.py
 
 
-## 4. APP
+## 4. HOME APP
 
 #### 4.1 Membuat folder
 
@@ -209,3 +209,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 #### 7.5 House keeping: Modified README.md file
 
         modified:   README.md
+
+
+## 8. PRODUCT APP
