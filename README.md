@@ -160,3 +160,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         ...
         new file:   static/js/nouislider.min.js
         new file:   static/js/slick.min.js
+
+#### 6.3 Configuring static files path
+
+        modified:   README.md
+        modified:   config/settings.py
+        https://docs.djangoproject.com/en/4.2/howto/static-files/
