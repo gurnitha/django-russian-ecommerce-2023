@@ -65,3 +65,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   .env.example
         modified:   .gitignore
         modified:   README.md
+
+#### 3.6 Protecting sensitive file
+
+        modified:   .env.example
+        modified:   README.md
+        modified:   config/settings.py

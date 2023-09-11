@@ -9,24 +9,32 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+import os
+import environ
+# Initialise environment variables
+env = environ.Env(
+    # set casting, default value
+    # DEBUG=(bool, False)
+    DEBUG=(bool, True)
+)
 
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-c)7=-hq4j(j+wlm!4(h#5t*n7)tip^)g%=o^qm!@vl5^b2u*q)'
+# SECRET_KEY = 'django-insecure-c)7=-hq4j(j+wlm!4(h#5t*n7)tip^)g%=o^qm!@vl5^b2u*q)'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -81,17 +89,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
-# PostgreSQL
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django_russian_ecommerce_2023',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost'
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASS'),
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
