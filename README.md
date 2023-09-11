@@ -191,3 +191,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   templates/app/home/index.html
         modified:   templates/base.html
+
+#### 6.6 Template inheritance: use block super for page title
+
+        modified:   README.md
+        modified:   templates/app/home/index.html
+        modified:   templates/base.html
