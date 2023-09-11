@@ -166,3 +166,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   config/settings.py
         https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+#### 6.4 Load static files
+
+        modified:   README.md
+        modified:   templates/app/home/index.html
