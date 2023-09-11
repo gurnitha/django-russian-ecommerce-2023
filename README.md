@@ -73,3 +73,17 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/settings.py
 
 ## 4. APP
+
+#### 4.1 Membuat folder
+
+        .
+        ├── README.md
+        ├── app
+        │   └── home
+        ├── config
+        │   ├── asgi.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        ├── db.sqlite3
+        └── manage.py
