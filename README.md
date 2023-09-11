@@ -127,3 +127,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/settings.py
 
 ## 5. TEMPLATES, VIEWS DAN URLS
+
+#### 5.1 Hello World from HttpResponse
+
+        modified:   README.md
+        new file:   app/home/urls.py
+        modified:   app/home/views.py
+        modified:   config/urls.py
