@@ -152,3 +152,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 #### 6.1 Create static folder
 
         modified:   README.md
+
+#### 6.2 Add assets to static folder
+
+        modified:   README.md
+        new file:   static/css/bootstrap.min.css
+        ...
+        new file:   static/js/nouislider.min.js
+        new file:   static/js/slick.min.js
