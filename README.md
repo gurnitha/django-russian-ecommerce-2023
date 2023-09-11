@@ -19,3 +19,5 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+## 3. DATABASE
