@@ -21,3 +21,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   manage.py
 
 ## 3. DATABASE
+
+#### 3.1 Instal Psycopg adaptor database PostgreSQL
+
+        > python -m pip install psycopg2-binary
