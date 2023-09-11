@@ -177,3 +177,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   templates/app/home/index.html
         new file:   templates/base.html
+
+#### 6.4 Template inheritance: header, navigation and footer
+
+        modified:   README.md
+        modified:   templates/base.html
+        new file:   templates/include/footer.html
+        new file:   templates/include/header.html
+        new file:   templates/include/navigation.html
