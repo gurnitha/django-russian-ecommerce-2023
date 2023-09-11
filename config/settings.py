@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 
     # New apps
     'app.home.apps.HomeConfig',
+    'app.product.apps.ProductConfig',
 ]
 
 MIDDLEWARE = [

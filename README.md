@@ -220,3 +220,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   app/product/models.py
         new file:   app/product/tests.py
         new file:   app/product/views.py
+
+#### 8.3 Register product app to config/settings.py
+
+        modified:   README.md
+        modified:   app/product/apps.py
+        modified:   config/settings.py
