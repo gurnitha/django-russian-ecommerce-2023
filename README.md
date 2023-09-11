@@ -148,3 +148,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/app/home/index.html
 
 ## 6. STATIC FILES
+
+#### 6.1 Create static folder
+
+        modified:   README.md
