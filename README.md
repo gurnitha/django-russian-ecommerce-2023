@@ -141,3 +141,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/home/views.py
         modified:   config/settings.py
         new file:   templates/app/home/index.html
+
+#### 5.3 Add html template to homepage
+
+        modified:   README.md
+        modified:   templates/app/home/index.html
