@@ -71,3 +71,5 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   .env.example
         modified:   README.md
         modified:   config/settings.py
+
+## 4. APP
