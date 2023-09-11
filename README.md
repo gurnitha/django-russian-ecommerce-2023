@@ -119,3 +119,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         │   └── wsgi.py
         ├── db.sqlite3
         └── manage.py
+
+#### 4.3 Register home app to config/setting.spy
+
+        modified:   README.md
+        modified:   app/home/apps.py
+        modified:   config/settings.py
