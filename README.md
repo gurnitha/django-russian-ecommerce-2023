@@ -8,7 +8,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
 
-
 ## 2. PROJECT
 
 #### 2.1 Create project
@@ -20,7 +19,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
-
 
 ## 3. DATABASE
 
@@ -73,7 +71,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   .env.example
         modified:   README.md
         modified:   config/settings.py
-
 
 ## 4. HOME APP
 
@@ -129,7 +126,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/home/apps.py
         modified:   config/settings.py
 
-
 ## 5. TEMPLATES, VIEWS DAN URLS
 
 #### 5.1 Hello World from HttpResponse
@@ -150,7 +146,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   templates/app/home/index.html
-
 
 ## 6. STATIC FILES
 
@@ -176,7 +171,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   templates/app/home/index.html
-
 
 ## 7. TEMPLATE INHERITANCE
 
@@ -210,5 +204,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
 
-
 ## 8. PRODUCT APP
+
+#### 8.1 Crete product folder: app/product
+
+        modified:   README.md
