@@ -59,3 +59,9 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         sqlparse        0.4.4
         tzdata          2023.3
         wheel           0.41.2
+
+#### 3.5 Create .env file
+
+        new file:   .env.example
+        modified:   .gitignore
+        modified:   README.md
