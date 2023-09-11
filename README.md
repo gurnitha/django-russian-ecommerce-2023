@@ -8,6 +8,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
 
+
 ## 2. PROJECT
 
 #### 2.1 Create project
@@ -19,6 +20,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
 
 ## 3. DATABASE
 
@@ -71,6 +73,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   .env.example
         modified:   README.md
         modified:   config/settings.py
+
 
 ## 4. APP
 
@@ -126,6 +129,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/home/apps.py
         modified:   config/settings.py
 
+
 ## 5. TEMPLATES, VIEWS DAN URLS
 
 #### 5.1 Hello World from HttpResponse
@@ -146,6 +150,7 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   templates/app/home/index.html
+
 
 ## 6. STATIC FILES
 
@@ -172,13 +177,16 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   templates/app/home/index.html
 
-#### 6.4 Create base template and extends it to homepage
+
+## 7. TEMPLATE INHERITANCE
+
+#### 7.1 Create base template and extends it to homepage
 
         modified:   README.md
         modified:   templates/app/home/index.html
         new file:   templates/base.html
 
-#### 6.4 Template inheritance: header, navigation and footer
+#### 7.2 Template inheritance: header, navigation and footer
 
         modified:   README.md
         modified:   templates/base.html
@@ -186,14 +194,18 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   templates/include/header.html
         new file:   templates/include/navigation.html
 
-#### 6.5 Template inheritance: homepage content
+#### 7.3 Template inheritance: homepage content
 
         modified:   README.md
         modified:   templates/app/home/index.html
         modified:   templates/base.html
 
-#### 6.6 Template inheritance: use block super for page title
+#### 7.4 Template inheritance: use block super for page title
 
         modified:   README.md
         modified:   templates/app/home/index.html
         modified:   templates/base.html
+
+#### 7.5 House keeping: Modified README.md file
+
+        modified:   README.md
