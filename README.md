@@ -254,3 +254,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         new file:   app/product/migrations/0001_initial.py
+
+#### 9.3 Admin - Activating Django Admin by creating superuser
+
+        (dj-russian-ecom) λ python manage.py createsuperuser
+        modified:   README.md
