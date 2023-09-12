@@ -46,6 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Third party apps
+    'mptt',
+
     # New apps
     'app.home.apps.HomeConfig',
     'app.product.apps.ProductConfig',

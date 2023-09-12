@@ -227,4 +227,22 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/apps.py
         modified:   config/settings.py
 
+
 ## 9. MODEL
+
+#### 9.1 Create Category model
+
+        (dj-russian-ecom) λ pip install django-mptt
+
+        (dj-russian-ecom) λ pip install pillow
+        (dj-russian-ecom) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, 
+
+        modified:   README.md
+        modified:   app/product/models.py
+        modified:   config/settings.py
