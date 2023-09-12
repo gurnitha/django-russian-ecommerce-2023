@@ -246,3 +246,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   app/product/models.py
         modified:   config/settings.py
+
+#### 9.2 Create migration file and create table Category
+
+        (dj-russian-ecom) λ python manage.py makemigrations
+        (dj-russian-ecom) λ python manage.py migrate
+
+        modified:   README.md
+        new file:   app/product/migrations/0001_initial.py
