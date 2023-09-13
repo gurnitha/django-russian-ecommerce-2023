@@ -20,11 +20,11 @@ class Category(MPTTModel):
     		related_name='children', 
     		on_delete=models.CASCADE)
     title = models.CharField(max_length=30)
+    slug = models.SlugField(null=False, unique=True)
     keywords = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True,upload_to='images/')
     status = models.CharField(max_length=10, choices=STATUS)
-    slug = models.SlugField(null=False, unique=True)
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
 
@@ -48,6 +48,7 @@ class Product(models.Model):
     )
     category = models.ForeignKey(Category, on_delete=models.CASCADE) #many to one relation with Category
     title = models.CharField(max_length=150)
+    slug = models.SlugField(null=False, unique=True)
     keywords = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True, upload_to='images/')
@@ -56,7 +57,6 @@ class Product(models.Model):
     minamount = models.IntegerField()
     # detail = models.TextField()
     detail=RichTextUploadingField()
-    slug = models.SlugField(null=False, unique=True)
     status = models.CharField(max_length=10, choices=STATUS)
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)

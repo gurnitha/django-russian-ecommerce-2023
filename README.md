@@ -405,3 +405,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/urls.py
 
         NEXT: Make slug pre-populated
+
+#### 9.21 Admin - Make slug pre-populated
+
+        modified:   README.md
+        modified:   app/product/admin.py
+        modified:   app/product/models.py
+
+        NEXT: Cleaning old data and re-iput new data
