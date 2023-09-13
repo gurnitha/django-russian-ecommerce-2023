@@ -291,3 +291,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/urls.py
 
         NEXT: Re-add an image for category
+
+#### 9.8 Admin - Re-add an image for category
+
+        deleted:    images/cat-women-clothing_VKsxfFG.png
+        renamed:    images/cat-women-clothing.png -> uploads/images/cat-women-clothing.png
+
+        NEXT: Create Product model
