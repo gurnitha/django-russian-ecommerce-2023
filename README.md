@@ -319,3 +319,13 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/models.py
 
         NEXT: Create tabel Products by running migrations and migrate
+
+#### 9.12 Admin - Create tabel Products by running migrations and migrate
+
+        (dj-russian-ecom) λ python manage.py makemigrations
+        (dj-russian-ecom) λ python manage.py migrate
+
+        modified:   README.md
+        new file:   app/product/migrations/0002_alter_category_options_product.py
+
+        NEXT: Register Product model to product/admin.py
