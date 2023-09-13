@@ -305,3 +305,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/sub-cat-women-clothing.png
 
         NEXT: Create Product model
+
+#### 9.10 Admin - Create Product model
+
+        modified:   README.md
+        modified:   app/product/models.py
+
+        NEXT: Add Many-to-One relationship between Product and Category model
