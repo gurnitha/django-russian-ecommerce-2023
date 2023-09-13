@@ -264,3 +264,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   app/product/admin.py
+
+#### 9.5 Admin - Menambahkan verbose_name_plural pada Category model
+
+        modified:   README.md
+        modified:   app/product/models.py
