@@ -283,3 +283,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         Using the URLconf defined in config.urls, Django tried these URL patterns, in this order:
 
         NEXT: Configure media path
+
+#### 9.7 Admin - Configure media path
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
+
+        NEXT: Re-add an image for category
