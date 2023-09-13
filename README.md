@@ -298,3 +298,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         renamed:    images/cat-women-clothing.png -> uploads/images/cat-women-clothing.png
 
         NEXT: Create Product model
+
+#### 9.9 Admin - Add sub-categories and images for it
+
+        new file:   uploads/images/sub-cat-women-clothing-2.png
+        new file:   uploads/images/sub-cat-women-clothing.png
+
+        NEXT: Create Product model
