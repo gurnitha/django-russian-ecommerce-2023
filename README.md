@@ -269,3 +269,17 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   app/product/models.py
+
+#### 9.6 Admin - Add a category in category tabel with error page not found
+
+        modified:   README.md
+        new file:   images/cat-women-clothing.png
+        new file:   images/cat-women-clothing_VKsxfFG.png
+
+        http://127.0.0.1:8000/images/cat-women-clothing_VKsxfFG.png
+        Page not found (404)
+        Request Method: GET
+        Request URL:    http://127.0.0.1:8000/images/cat-women-clothing_VKsxfFG.png
+        Using the URLconf defined in config.urls, Django tried these URL patterns, in this order:
+
+        NEXT: Configure media path
