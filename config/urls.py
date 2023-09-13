@@ -8,9 +8,11 @@ from django.urls import path, include
 urlpatterns = [
     # home
     path('', include('app.home.urls',namespace='home')),
-
     # admin
     path('admin/', admin.site.urls),
+    # ckeditor
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
+
 if settings.DEBUG: # new
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

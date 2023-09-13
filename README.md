@@ -394,3 +394,14 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/skirt-gal-phink.png
 
         NEXT: Install Django CKEditor
+
+#### 9.20 Admin - Setup Django CKEditor
+
+        (dj-russian-ecom) λ pip install django-ckeditor
+
+        modified:   README.md
+        modified:   app/product/models.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+
+        NEXT: Make slug pre-populated
