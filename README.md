@@ -353,4 +353,12 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   README.md
         modified:   app/product/admin.py
 
-        NEXT: Showing image thumbnail in Admin dashboard
+        NEXT: Showing category image thumbnails in Admin dashboard
+
+#### 9.16 Admin - Showing category image thumbnails in Admin dashboard
+
+        modified:   README.md
+        modified:   app/product/admin.py
+        modified:   app/product/models.py
+
+        NEXT: Showing product image thumbnails in Admin dashboard

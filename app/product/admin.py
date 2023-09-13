@@ -7,8 +7,9 @@ from django.contrib import admin
 from app.product.models import Category, Product
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['title','parent', 'status']
+    list_display = ['title','parent', 'status','image_tag']
     list_filter = ['status']
+    readonly_fields = ('image_tag',)
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['title','category', 'status']
