@@ -6,5 +6,13 @@ from django.contrib import admin
 # Locals
 from app.product.models import Category, Product
 
-admin.site.register(Category)
-admin.site.register(Product)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = ['title','parent', 'status']
+    list_filter = ['status']
+
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['title','category', 'status']
+    list_filter = ['category']
+
+admin.site.register(Category, CategoryAdmin)
+admin.site.register(Product, ProductAdmin)

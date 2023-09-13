@@ -347,3 +347,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/product-skirt-2.png
 
         NEXT: Modify Categories and Products display in admin dashboard
+
+#### 9.15 Admin - Modify Categories and Products display in admin dashboard
+
+        modified:   README.md
+        modified:   app/product/admin.py
+
+        NEXT: Showing image thumbnail in Admin dashboard
