@@ -312,3 +312,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/models.py
 
         NEXT: Add Many-to-One relationship between Product and Category model
+
+#### 9.11 Add Many-to-One relationship between Product and Category model
+
+        modified:   README.md
+        modified:   app/product/models.py
+
+        NEXT: Create tabel Products by running migrations and migrate

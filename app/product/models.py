@@ -38,6 +38,7 @@ class Product(models.Model):
         ('True', 'True'),
         ('False', 'False'),
     )
+    category = models.ForeignKey(Category, on_delete=models.CASCADE) #many to one relation with Category
     title = models.CharField(max_length=150)
     keywords = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
