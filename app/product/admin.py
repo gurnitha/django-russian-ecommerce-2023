@@ -4,7 +4,7 @@
 from django.contrib import admin
 
 # Locals
-from app.product.models import Category, Product
+from app.product.models import Category, Product, Images
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['title','parent', 'status','image_tag']
@@ -18,3 +18,4 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Images)

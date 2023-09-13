@@ -370,3 +370,15 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/models.py
 
         NEXT: Create Image model for image gallery
+
+#### 9.18 Admin - Create Image model for image gallery
+
+        (dj-russian-ecom) λ python manage.py makemigrations
+        (dj-russian-ecom) λ python manage.py migrate
+
+        modified:   README.md
+        modified:   app/product/admin.py << --- register Image model
+        new file:   app/product/migrations/0003_images.py << -- create table
+        modified:   app/product/models.py << --- create Image model
+
+        NEXT: Use TabularInline for image galerry
