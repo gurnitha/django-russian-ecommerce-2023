@@ -329,3 +329,21 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   app/product/migrations/0002_alter_category_options_product.py
 
         NEXT: Register Product model to product/admin.py
+
+#### 9.13 Admin - Register Product model to product/admin.py
+
+        modified:   README.md
+        modified:   app/product/admin.py
+
+        NEXT: Add items to products table
+
+#### 9.14 Admin - Add items to products table
+
+        modified:   README.md
+        modified:   app/product/admin.py
+        new file:   uploads/images/product-dresses-1.png
+        new file:   uploads/images/product-dresses-2.png
+        new file:   uploads/images/product-skirt-1.png
+        new file:   uploads/images/product-skirt-2.png
+
+        NEXT: Modify Categories and Products display in admin dashboard
