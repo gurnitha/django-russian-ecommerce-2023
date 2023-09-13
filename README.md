@@ -382,3 +382,15 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/models.py << --- create Image model
 
         NEXT: Use TabularInline for image galerry
+
+#### 9.19 Admin - Use TabularInline/imageinline to add more images for a product
+
+        modified:   README.md
+        modified:   app/product/admin.py
+        new file:   uploads/images/skirt-gal-blue.png
+        new file:   uploads/images/skirt-gal-blue_kN51cn0.png
+        new file:   uploads/images/skirt-gal-dark.png
+        new file:   uploads/images/skirt-gal-green.png
+        new file:   uploads/images/skirt-gal-phink.png
+
+        NEXT: Install Django CKEditor
