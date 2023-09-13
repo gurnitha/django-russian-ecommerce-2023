@@ -413,3 +413,16 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/product/models.py
 
         NEXT: Cleaning old data and re-iput new data
+
+#### 9.22 Admin - Cleaning old data and re-iput new data
+
+        (dj-russian-ecom) λ python manage.py makemigrations
+        (dj-russian-ecom) λ python manage.py migrate
+        (dj-russian-ecom) λ python manage.py createsuperuser
+
+        modified:   README.md
+        new file:   app/product/migrations/0004_alter_images_options_alter_product_detail.py
+        ...
+        deleted:    uploads/images/sub-cat-women-clothing.png
+
+        NEXT: Create project's settings
