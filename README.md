@@ -259,3 +259,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         (dj-russian-ecom) λ python manage.py createsuperuser
         modified:   README.md
+
+#### 9.4 Admin - Register Category model to product/admin.py
+
+        modified:   README.md
+        modified:   app/product/admin.py
