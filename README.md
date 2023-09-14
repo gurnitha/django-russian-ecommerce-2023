@@ -571,3 +571,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/2023/09/14/ing_thumb.jpeg
 
         NEXT: Create Contac app
+
+
+## 12. CONTACT APP
