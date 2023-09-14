@@ -492,3 +492,14 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/icon.PNG
 
         NEXT: Load data from db and fetch them to home page
+
+#### 10.7 Load data from db and fetch them to home page
+
+        modified:   README.md
+        modified:   app/home/views.py
+        modified:   templates/app/home/index.html
+        modified:   templates/base.html
+        new file:   uploads/images/icon2.PNG
+        new file:   uploads/images/icon3.PNG
+
+        NEXT: Create About app

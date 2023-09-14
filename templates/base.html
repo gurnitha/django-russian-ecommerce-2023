@@ -5,12 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="{% block favicon %}  {% endblock favicon %}">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>
-      {% block title %} {{ block.super }} {% endblock title %} | eShop 
+      {% block title %} {{ setting.title }}{{ block.super }} {% endblock title %}
     </title>
-    <meta name="keywords" content="{% block keywords %} Home Keywords {% endblock keywords %}" />
-    <meta name="description" content="{% block description %} Home description {% endblock description %}" />
+    <meta name="keywords" content="{% block keywords %}  {% endblock keywords %}" />
+    <meta name="description" content="{% block description %}  {% endblock description %}" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css?family=Hind:400,700"

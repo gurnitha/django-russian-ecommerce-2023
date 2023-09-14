@@ -1,9 +1,10 @@
 <!-- app/home/templates/home/index.html -->
 {% extends 'base.html' %} 
-{% load static %} 
-{% block title %} My static page title {% endblock %} 
-{% block keywords %} My static keywords {% endblock %} 
-{% block description %} My static description {% endblock %} 
+{% load static %}
+{% block favicon %} {{ setting.icon.url }} {% endblock favicon %} 
+{% block title %} {{ setting.title }} {% endblock %} 
+{% block keywords %} {{ setting.keywords }} {% endblock %} 
+{% block description %} {{ setting.description }} {% endblock %} 
 {% block content %}
 
 <!-- HOME slider -->
