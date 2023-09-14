@@ -10,6 +10,8 @@ urlpatterns = [
     path('', include('app.home.urls',namespace='home')),
     # about
     path('', include('app.about.urls',namespace='about')),
+    # contact
+    path('', include('app.contact.urls',namespace='contact')),
     # admin
     path('admin/', admin.site.urls),
     # ckeditor

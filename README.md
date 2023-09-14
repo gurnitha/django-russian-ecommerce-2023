@@ -613,3 +613,13 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/settings.py
 
         NEXT: Create contactpage
+
+#### 12.3 Create contact page: urls, views, templates
+
+        modified:   README.md
+        new file:   app/contact/urls.py
+        modified:   app/contact/views.py
+        modified:   config/urls.py
+        new file:   templates/app/contact/contact.html
+
+        NEXT: Add html template to contact page
