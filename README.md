@@ -458,3 +458,30 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/base.html
 
         NEXT: Setup static title for page title, keywords, and description
+
+#### 10.5 Setup static title for page title, keywords, and description
+
+        <!-- templates/app/home/index.html -->
+        {% block title %} My static page title {% endblock %} 
+        {% block keywords %} My static keywords {% endblock %} 
+        {% block description %} My static description {% endblock %} 
+
+        <!-- Results -->
+        <!-- app/home/templates/home/index.html -->
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <title>
+               My static page title  | eShop 
+            </title>
+            <meta name="keywords" content=" My static keywords " />
+            <meta name="description" content=" My static description " />
+
+        modified:   README.md
+        modified:   templates/app/home/index.html
+
+        NEXT: Input data to Setting table
