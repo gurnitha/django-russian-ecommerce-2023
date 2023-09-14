@@ -574,3 +574,34 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
 
 ## 12. CONTACT APP
+
+#### 12.1 Create Contact app
+
+        (dj-russian-ecom) λ mkdir app\contact
+        (dj-russian-ecom) λ django-admin startapp contact app\contact
+
+        ├───about
+        ...
+        │
+        ├───contact
+        │   │   admin.py
+        │   │   apps.py
+        │   │   models.py
+        │   │   tests.py
+        │   │   views.py
+        │   │   __init__.py
+        │   │
+        │   └───migrations
+        │           __init__.py
+        │
+        ├───home
+        ...
+
+        modified:   README.md
+        new file:   app/contact/__init__.py
+        new file:   app/contact/admin.py
+        new file:   app/contact/apps.py
+        new file:   app/contact/migrations/__init__.py
+        new file:   app/contact/models.py
+        new file:   app/contact/tests.py
+        new file:   app/contact/views.py
