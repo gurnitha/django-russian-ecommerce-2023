@@ -426,3 +426,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         deleted:    uploads/images/sub-cat-women-clothing.png
 
         NEXT: Create project's settings
+
+
+## 10. PROJECT'S SETTINGS 
