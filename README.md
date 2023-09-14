@@ -434,3 +434,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         modified:   app/home/models.py
+
+#### 10.2 Create table Setting by running migration
+
+        (dj-russian-ecom) λ python manage.py makemigrations
+        (dj-russian-ecom) λ python manage.py migrate
+
+        modified:   README.md
+        new file:   app/home/migrations/0001_initial.py
