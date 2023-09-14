@@ -1,3 +1,9 @@
+# app/about/views.py
+
+# Django and third parties modules
 from django.shortcuts import render
 
-# Create your views here.
+# Locals
+
+def about(request):
+	return render(request, 'app/about/about.html')

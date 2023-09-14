@@ -541,3 +541,13 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   config/settings.py
 
         NEXT: Create about page
+
+#### 11.3 Create about page: urls, views, templates
+
+        modified:   README.md
+        new file:   app/about/urls.py
+        modified:   app/about/views.py
+        modified:   config/urls.py
+        new file:   templates/app/about/about.html
+
+        NEXT: Add html template to about page

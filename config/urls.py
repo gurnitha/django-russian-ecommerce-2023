@@ -8,6 +8,8 @@ from django.urls import path, include
 urlpatterns = [
     # home
     path('', include('app.home.urls',namespace='home')),
+    # about
+    path('', include('app.about.urls',namespace='about')),
     # admin
     path('admin/', admin.site.urls),
     # ckeditor
