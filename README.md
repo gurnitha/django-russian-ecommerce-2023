@@ -503,3 +503,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   uploads/images/icon3.PNG
 
         NEXT: Create About app
+
+## 11. ABOUT APP
+
