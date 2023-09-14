@@ -605,3 +605,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   app/contact/models.py
         new file:   app/contact/tests.py
         new file:   app/contact/views.py
+
+#### 12.2 Register Contact app to config/settings.py
+
+        modified:   README.md
+        modified:   app/contact/apps.py
+        modified:   config/settings.py
+
+        NEXT: Create contactpage

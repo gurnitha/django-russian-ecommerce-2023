@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'app.home.apps.HomeConfig',
     'app.product.apps.ProductConfig',
     'app.about.apps.AboutConfig',
+    'app.contact.apps.ContactConfig',
 ]
 
 MIDDLEWARE = [
