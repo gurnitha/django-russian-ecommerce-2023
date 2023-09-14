@@ -638,3 +638,6 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/app/contact/contact.html
 
         NEXT: Refactoring Home, About and Contact pages
+
+
+## 13. REFACTORING THE PAGES
