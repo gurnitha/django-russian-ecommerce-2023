@@ -506,3 +506,30 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
 ## 11. ABOUT APP
 
+#### 11.1 Create About app
+
+        (dj-russian-ecom) λ mkdir app\about
+        (dj-russian-ecom) λ django-admin startapp about app\about
+        (dj-russian-ecom) λ tree /f
+
+        ├───about
+        │   │   admin.py
+        │   │   apps.py
+        │   │   models.py
+        │   │   tests.py
+        │   │   views.py
+        │   │   __init__.py
+        │   │
+        │   └───migrations
+        │           __init__.py
+        │
+        ├───home
+
+        modified:   README.md
+        new file:   app/about/__init__.py
+        new file:   app/about/admin.py
+        new file:   app/about/apps.py
+        new file:   app/about/migrations/__init__.py
+        new file:   app/about/models.py
+        new file:   app/about/tests.py
+        new file:   app/about/views.py
