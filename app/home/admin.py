@@ -1,3 +1,9 @@
+# app/product/admin.py
+
+# Django modules
 from django.contrib import admin
 
-# Register your models here.
+# Locals
+from app.home.models import Setting
+
+admin.site.register(Setting)

@@ -442,3 +442,12 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
         modified:   README.md
         new file:   app/home/migrations/0001_initial.py
+
+        NEXT: Register Setting model to home/admin.py
+
+#### 10.3 Register Setting model to home/admin.py
+
+        modified:   README.md
+        modified:   app/home/admin.py
+
+        NEXT: Add block tags to head
