@@ -485,3 +485,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/app/home/index.html
 
         NEXT: Input data to Setting table
+
+#### 10.6 Input data to Setting table
+
+        modified:   README.md
+        new file:   uploads/images/icon.PNG
+
+        NEXT: Load data from db and fetch them to home page
