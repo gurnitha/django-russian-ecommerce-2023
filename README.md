@@ -451,3 +451,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   app/home/admin.py
 
         NEXT: Add block tags to head
+
+#### 10.4 Add block tags to meta keywords and description in head
+
+        modified:   README.md
+        modified:   templates/base.html
+
+        NEXT: Setup static title for page title, keywords, and description
