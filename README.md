@@ -551,3 +551,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   templates/app/about/about.html
 
         NEXT: Add html template to about page
+
+#### 11.4 Add html template to about page
+
+        modified:   README.md
+        modified:   templates/app/about/about.html
+
+        NEXT: Load and fetch data from db to aboutpage
