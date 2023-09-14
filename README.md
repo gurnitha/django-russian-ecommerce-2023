@@ -429,3 +429,8 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
 
 
 ## 10. PROJECT'S SETTINGS 
+
+#### 10.1 Create Setting model for project's settings
+
+        modified:   README.md
+        modified:   app/home/models.py
