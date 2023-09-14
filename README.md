@@ -623,3 +623,10 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   templates/app/contact/contact.html
 
         NEXT: Add html template to contact page
+
+#### 12.4 Add html template to contact page
+
+        modified:   README.md
+        modified:   templates/app/contact/contact.html
+
+        NEXT: Load and fetch data contact from db to contact page
