@@ -533,3 +533,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         new file:   app/about/models.py
         new file:   app/about/tests.py
         new file:   app/about/views.py
+
+#### 11.2 Register about app to config/settings.py
+
+        modified:   README.md
+        modified:   app/about/apps.py
+        modified:   config/settings.py
+
+        NEXT: Create about page
