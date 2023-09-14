@@ -630,3 +630,11 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/app/contact/contact.html
 
         NEXT: Load and fetch data contact from db to contact page
+
+#### 12.5 Load and fetch data contact from db to contact page
+
+        modified:   README.md
+        modified:   app/contact/views.py
+        modified:   templates/app/contact/contact.html
+
+        NEXT: Refactoring Home, About and Contact pages

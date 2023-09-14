@@ -4,7 +4,10 @@
 from django.shortcuts import render
 
 # Locals
+from app.home.models import Setting
 
 def contact(request):
-	return render(request, 'app/contact/contact.html')
+	setting = Setting.objects.get(pk=1)
+	context={'setting':setting }
+	return render(request, 'app/contact/contact.html',context)
 

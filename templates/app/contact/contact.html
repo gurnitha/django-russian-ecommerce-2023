@@ -7,14 +7,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="{% static 'img/logo.png' %}">
+    <link rel="icon" type="image/x-icon" href="{{ setting.icon.url }}">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>
-       Contact | eShop 
+       Contact {{ setting.title }}
     </title>
-    <meta name="keywords" content=" eShop, all you need, women, man, kid, clothes " />
-    <meta name="description" content=" The only eShop provide all your family needs " />
+    <meta name="keywords" content="{{ setting.keywords }}" />
+    <meta name="description" content="{{ setting.description }}" />
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
@@ -570,14 +570,7 @@
 				<div class="col-md-12">
 					<div class="order-summary clearfix">
 						<div class="section-title" style="padding-bottom: 200px;">
-							<p><h2>_About ING eShop</h2>
-
-<p>_Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br />
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span style="color:red">Duis aute irure dolor</span> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><span style="color:#3498db"><img alt="" src="/media/images/2023/09/14/ing_2JsGcVP.jpeg" style="height:150px; width:150px" /></span></p>
-
-<p><span style="color:#3498db">_Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							{{ setting.contact|safe }}
 
 <p>&nbsp;</p></p>
 						</div>
