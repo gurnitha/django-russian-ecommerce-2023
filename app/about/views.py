@@ -4,6 +4,9 @@
 from django.shortcuts import render
 
 # Locals
+from app.home.models import Setting
 
 def about(request):
-	return render(request, 'app/about/about.html')
+	setting = Setting.objects.get(pk=1)
+	context={'setting':setting }
+	return render(request, 'app/about/about.html',context)

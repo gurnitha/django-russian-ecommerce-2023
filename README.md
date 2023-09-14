@@ -558,3 +558,16 @@ Mengulang latihan membuat aplikasi ecommerce berdasarkan tutorial Yuksel Celik d
         modified:   templates/app/about/about.html
 
         NEXT: Load and fetch data from db to aboutpage
+
+#### 11.5 Load and fetch data from db to aboutpage
+
+        modified:   README.md
+        modified:   app/about/views.py
+        modified:   templates/app/about/about.html
+        modified:   templates/app/home/index.html
+        new file:   uploads/images/2023/09/14/ing.jpeg
+        new file:   uploads/images/2023/09/14/ing_2JsGcVP.jpeg
+        new file:   uploads/images/2023/09/14/ing_2JsGcVP_thumb.jpeg
+        new file:   uploads/images/2023/09/14/ing_thumb.jpeg
+
+        NEXT: Create Contac app
